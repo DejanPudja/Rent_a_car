@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carvoltserbia</title>
+    <link rel="icon" href="Slike/icon.png">
+    <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="topnav" id="nav">
+                <a href="main.php" class="logo">Carvoltserbia</a>
+                <a href="main.php">Početna</a>
+                <a href="cars.php">Automobili</a>
+                <a href="transfer.php">Transferi</a>
+                <a href="transport.html">Kombi prevoz</a>
+                <a href="conditions.html">Uslovi najma</a>
+                <a href="about.html">O nama</a>
+                <a href="contact.html" class="active">Kontakt</a>
+                <a  class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars" style="color:white;"></i>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="slice sct-color-1 pb20 maps">
+            <div class="container">
+                <div class="row cols-xs-space cols-sm-space cols-md-space">
+                    <div class="col-lg-12 mb-4 mt-5">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3391.086915997637!2d20.479074953220504!3d44.80041455666034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a70762f427ebf%3A0xf9642a4173bf403a!2sLozni%C4%8Dka%2C%20Beograd!5e0!3m2!1shr!2srs!4v1623595566048!5m2!1shr!2srs" width="100%" height="450" style="border:0;" loading="lazy"></iframe>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="feature feature--text-only">
+                            <h3 class="heading heading-3 strong-600">Carvoltserbia</h3>
+                            <h5 class="heading heading-6 pb-3 strong-500">Beograd Vračar</h5>
+                            <ul class="list-group list-unstyled mb-5">
+                                <li><i class="fa fa-map-marker"></i>&nbsp;&nbsp;&nbsp;Loznička 8, Vračar, 11000 Beograd, Srbija</li>
+                                <li><i class="fa fa-mobile strong-400"></i>&nbsp;&nbsp;&nbsp;&nbsp;<a href="tel:+381658543982">065 8543 982</a></li>
+                                <li><i class="fa fa-envelope"></i>&nbsp;&nbsp;carvoltserbia@gmail.com</li>
+                            </ul>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="feature feature--text-only">
+                            <h3 class="heading heading-3 strong-600">Carvoltserbia</h3>
+                            <h5 class="heading heading-6 pb-3 strong-500">Aerodrom Beograd</h5>
+                            <ul class="list-group list-unstyled mb-5">
+                                <li><i class="fa fa-map-marker"></i>&nbsp;&nbsp;&nbsp;Beograd / Surčin 11180, Srbija</li>
+                                <li><i class="fa fa-mobile strong-400"></i>&nbsp;&nbsp;&nbsp;&nbsp;<a href="tel:+381667334392">066 733 4392</a></li>
+                                <li><i class="fa fa-envelope"></i>&nbsp;&nbsp;carvoltserbia@gmail.com</li>
+                            </ul>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="for-fixed-menu slice has-bg-cover bg-size-cover mt-4" >
+            <div class="container">
+                <div class="section-title section-title--style-1 text-center mb-5">
+                    <h3 class="heading heading-2 strong-500 text-normal">Budimo u kontaktu!</h3>
+                    <span class="section-title-delimiter clearfix d-none"></span>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <form id="form_contact2" method="post" action="" class="form-default" role="form">         
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group has-feedback">
+                                        <label for="">Ime i prezime</label>
+                                        <input type="text" name="name" class="form-control form-control-lg" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group has-feedback">
+                                        <label for="">Telefon</label>
+                                        <input type="tel" name="phone" class="form-control form-control-lg" required>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="form-group has-feedback">
+                                        <label for="">E-mail</label>
+                                        <input type="email" name="email" class="form-control form-control-lg" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group has-feedback">
+                                        <label for="">Poruka</label>
+                                        <textarea name="message" class="form-control no-resize" rows="5" required></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clearfix">
+                                <button type="submit" class="btn btn-styled btn-success mt-4 pull-right"><i class="fa fa-send"></i>&nbsp;&nbsp;Pošalji poruku</button>
+                            </div>                           
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer style="background-color: #252525;" class="text-white text-center text-lg-start">
+        <div class="container text-center text-md-left">
+            <div class="row text-center text-md-left">
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <img src="Slike/logo.png" style="width:300px; height:200px;">
+                    <p class="describe">Carvoltserbia ja najveća domaća kompanija u oblasti iznajmljivanja automobila za fizička i pravna lica, koja uspešno posluje već 10 godina.</p>
+                </div>
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5>Rent a Car</h5>
+                    <p><a href="main.php" class="text-white fa fa-chevron-right"> POČETNA STRANA</a></p>
+                    <p><a href="cars.php" class="text-white fa fa-chevron-right"> AUTOMOBILI</a></p>
+                    <p><a href="transfer.php" class="text-white fa fa-chevron-right"> TRANSFERI</a></p>
+                    <p><a href="transport.html" class="text-white fa fa-chevron-right"> KOMBI PREVOZ</a></p>
+                    <p><a href="conditions.html" class="text-white fa fa-chevron-right"> USLOVI NAJMA</a></p>
+                    <p><a href="about.html" class="text-white fa fa-chevron-right"> O NAMA</a></p>
+                    <p><a href="contact.html" class="text-white fa fa-chevron-right"> KONTAKT</a></p>
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-4 mx-auto mt-3 ">
+                    <h5>Lokacije Kontakt</h5>
+                    <p><a href="#" class="text-white fa fa-chevron-right">Loznička 8, Vračar, 11000 Beograd, Srbija</a></p>
+                    <p><a href="#" class="text-white fa fa-chevron-right">carvoltserbia@gmail.com</a></p>
+                    <p><a href="#" class="text-white fa fa-chevron-right">Beograd / Surčin 11180, Srbija</a></p>
+                    <p><a href="#" class="text-white fa fa-chevron-right">065 8543 982</a></p>
+                </div>
+            </div>
+        </div>
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">© 2021/Carvoltserbia/Beograd,Srbija.</div>
+    </footer>
+    <script src="JS/script.js"></script>
+</body>
+</html>
