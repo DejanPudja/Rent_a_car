@@ -58,7 +58,8 @@
         }
     }
     $i = 0;
-    global $c;  
+    global $c; 
+    global $TotalPrice;
     $servic = implode("," , $service1);
 
     $sql = "SELECT * FROM `cars` WHERE id='$hidden_id'";
@@ -225,7 +226,7 @@
                                 <input type="hidden" name="email" value="<?php echo $email?>">
                                 <input type="hidden" name="message" value="<?php echo $message?>">
                                 <input type="hidden" name="id" value="<?php echo $hidden_id?>">
-                                <input type="hidden" name="hidden_total" value="<?php echo $first_total?>">                              
+                                <input type="hidden" name="hidden_total" value="<?php echo $total?>">                              
                                 <input type="hidden" name="services" value="<?php echo $servic?>">
                                 <input type="submit" class="btn btn-styled btn-success mt-4 pull-right " name="Submit" value="Rezervacija">   
                             </div>
