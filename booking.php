@@ -169,8 +169,7 @@
                                             </div>
                                             <div class="block-body text-center">
                                                 <h3 class="heading heading-3 strong-500 text-capitalize"><?php echo $car['name']; ?></h3>
-                                                <p class="strong-500">Ili slično vozilo iz Economy grupe.</p>
-                                                <p class="product-description">od 1.180 Din</p>
+                                                <p class="product-description">od<?php echo $car['price']; ?> Din/dan</p>
                                                 <hr>
                                                 <a href="cars.php">
                                                     <i class="icon fa fa-chevron-left mr-1"></i> <span>Izaberite drugo vozilo </span>
