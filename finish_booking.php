@@ -228,7 +228,8 @@
                                 <input type="hidden" name="id" value="<?php echo $hidden_id?>">
                                 <input type="hidden" name="hidden_total" value="<?php echo $total?>">                              
                                 <input type="hidden" name="services" value="<?php echo $servic?>">
-                                <input type="submit" class="btn btn-styled btn-success mt-4 pull-right " name="Submit" value="Rezervacija">   
+                                <input type="submit" class="btn btn-styled btn-success mt-4 pull-right " name="Submit" value="Rezervacija">
+                                <a href="cars.php" style="margin-right:10px" class="btn btn-styled btn-primary mt-4 pull-right ">Odustani</a>
                             </div>
                             <div class="clearfix"></div>
                             <div class="alert alert-icon alert-info strong-400 text-center mt-4">
