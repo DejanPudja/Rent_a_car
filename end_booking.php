@@ -16,7 +16,7 @@
 
      $insert = "INSERT INTO booking VALUES(NULL, '$firstName','$lastName','$email','$phoneNumber','$message','$location','$locationBack','$date','$dateBack','$time','$timeBack',$hidden_id,'$service',$hidden_total)";
     $queryInsert = mysqli_query($conn,$insert);
-    header("refresh: 5; url = main.php");
+    header("refresh: 5; url = index.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -34,8 +34,8 @@
     <header>
         <nav>
             <div class="topnav" id="nav">
-                <a href="main.php" class="logo">Logo</a>
-                <a href="main.php" >Početna</a>
+                <a href="index.php" class="logo">Logo</a>
+                <a href="index.php" >Početna</a>
                 <a href="cars.php">Automobili</a>
                 <a href="transfer.php">Transferi</a>
                 <a href="transport.html">Kombi prevoz</a>
@@ -77,7 +77,7 @@
                 </div>
                 <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
                     <h5>Rent a Car</h5>
-                    <p><a href="main.php" class="text-white fa fa-chevron-right"> POČETNA STRANA</a></p>
+                    <p><a href="index.php" class="text-white fa fa-chevron-right"> POČETNA STRANA</a></p>
                     <p><a href="cars.php" class="text-white fa fa-chevron-right"> AUTOMOBILI</a></p>
                     <p><a href="transfer.php" class="text-white fa fa-chevron-right"> TRANSFERI</a></p>
                     <p><a href="transport.html" class="text-white fa fa-chevron-right"> KOMBI PREVOZ</a></p>
