@@ -5,7 +5,7 @@
         $email = $_POST['email'];
         $text = $_POST['text'];
     
-        $to = "dejan.vtsns1234@gmail.com";
+        $to = "";
         $subject = "Ovo je naslov";
         $message = $text;
         $headers = "From: ".$email;
@@ -33,8 +33,8 @@
     <header>
         <nav>
             <div class="topnav" id="nav">
-                <a href="main.php" class="logo">Carvoltserbia</a>
-                <a href="main.php">Početna</a>
+                <a href="index.php" class="logo">Carvoltserbia</a>
+                <a href="index.php">Početna</a>
                 <a href="cars.php">Automobili</a>
                 <a href="transfer.php" class="active">Transferi</a>
                 <a href="transport.html">Kombi prevoz</a>
@@ -470,7 +470,7 @@
                 </div>
                 <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
                     <h5>Rent a Car</h5>
-                    <p><a href="main.php" class="text-white fa fa-chevron-right"> POČETNA STRANA</a></p>
+                    <p><a href="index.php" class="text-white fa fa-chevron-right"> POČETNA STRANA</a></p>
                     <p><a href="cars.php" class="text-white fa fa-chevron-right"> AUTOMOBILI</a></p>
                     <p><a href="transfer.php" class="text-white fa fa-chevron-right"> TRANSFERI</a></p>
                     <p><a href="transport.html" class="text-white fa fa-chevron-right"> KOMBI PREVOZ</a></p>
