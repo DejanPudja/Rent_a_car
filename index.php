@@ -9,6 +9,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="automobil, iznajmljivanje automobila, rent a car, iznajmljivanje automobila Beograd "/>
+    <meta name="title" content="carvoltserbia"/>
+    <meta name="copyright" content="Dejan Pudja"/>
+    <meta name="description" content="Na sajtu carvoltserbia imate veliki broj automobila za iznajmljivanje."/>
+    <meta property="og:url" content="http://carvoltserbia.ga/"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Carvoltserbia"/>
+    <meta property="og:description" content="Ovo je sajt za iznajmljivanje automobila."/>
+    <meta property="og:image" content=""/>
+    
     <title>Carvoltserbia</title>
     <link rel="icon" href="Slike/car.png">
     <link rel="stylesheet" href="Style/stil.css">
